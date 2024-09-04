@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.navbar-container {
+  background-color: #cbd5e1;
+  padding: 15px 75px;
+}
+
+.navbar-container img {
+  width: 140px;
+}
+
+.main-container {
+  padding: 25px 60px;
+}
+
+.select-ele-container {
+  width: 250px;
+  height: 35px;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  margin-left: 10px;
+}
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+}
+
+.failure-view-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 75vh;
+  padding: 20px;
+}
+
+.failure-view-container img {
+  width: 30%;
+}
+
+.retry-btn-container button {
+  background-color: #328af2;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 8px 24px;
+  border-radius: 5px;
+  font-weight: 600;
+  color: white;
+}
+
+.projects-ul-container {
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.projects-li-container {
+  list-style-type: none;
+  background-color: #f1f5f9;
+  margin: 10px;
+  width: 23%;
+  border-radius: 10px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.projects-li-container img {
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+
+.projects-li-container p {
+  text-align: center;
+}
